@@ -352,10 +352,14 @@
             // 
             // txt_Showing
             // 
+            this.txt_Showing.BackColor = System.Drawing.Color.White;
             this.txt_Showing.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Showing.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.txt_Showing.HideSelection = false;
             this.txt_Showing.Location = new System.Drawing.Point(10, 12);
             this.txt_Showing.Multiline = true;
             this.txt_Showing.Name = "txt_Showing";
+            this.txt_Showing.ReadOnly = true;
             this.txt_Showing.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txt_Showing.Size = new System.Drawing.Size(424, 130);
             this.txt_Showing.TabIndex = 20;
